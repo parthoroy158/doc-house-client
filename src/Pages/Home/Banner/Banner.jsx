@@ -1,46 +1,61 @@
 import banner1 from '../../../assets/Resource/Banner/Group 34991.png';
 import banner2 from '../../../assets/Resource/Banner/Group 7.png';
 import banner3 from '../../../assets/Resource/Banner/Group 6.png';
-import { motion } from "motion/react"
+import { motion } from 'framer-motion';   // ← use “framer-motion” (the package that exports <motion.*>)
 
 const Banner = () => {
     return (
-        <div className="w-full bg-[#54a39d]">
-            <div className="flex flex-col-reverse lg:flex-row items-center justify-between px-4 md:px-12 py-12 min-h-[600px] lg:min-h-[800px] relative">
-                <motion.img
-                    animate={{
-                        x: [0, 50, 0],
-                        scale: [1, 1.5, 1.5, 1, 1],
-                        rotate: [0, 0, 180, 180, 0],
-                        borderRadius: ["0%", "0%", "50%", "50%", "0%"],
-                    }}
-                    transition={{ ease: "easeOut", duration: 5, repeat: Infinity, }}
-                    className='absolute top-25 z-1' src={banner3} alt="" />
-                {/* Text Section */}
-                <div className="text-center lg:text-left max-w-xl relative">
-                    <motion.img
-                        animate={{ x: [0, 100, 0], y: [10, 30, 0], opacity: 1, scale: 1 }}
-                        transition={{ ease: "easeOut", duration: 5, repeat: Infinity, }}
+        <section className="w-full bg-[#54a39d] overflow-hidden">
 
-                        className='absolute -right-5' src={banner2} alt="" />
-                    <h1 className="text-3xl md:text-5xl font-bold text-white">Your Best Medical Help Center</h1>
-                    <p className="py-4 text-white text-base md:text-lg">
-                        Lorem Ipsum is simply dummy text they are printing typesetting has been the industry’s stardard.
+            <div className="relative flex flex-col-reverse lg:flex-row items-center lg:justify-between gap-10 lg:gap-0
+                      px-4 sm:px-8 lg:px-16 py-10 sm:py-16 lg:py-24 max-w-screen-xl mx-auto">
+                <motion.img
+                    src={banner3}
+                    alt=""
+                    className="absolute -z-10 w-40 sm:w-56 md:w-72 lg:w-96
+                     top-4 sm:top-10 lg:top-20
+                     left-1/2 -translate-x-1/2 lg:left-auto lg:right-4"
+                    animate={{
+                        x: [0, 40, 0],
+                        scale: [1, 1.3, 1],
+                        rotate: [0, 180, 360],
+                        borderRadius: ['0%', '30%', '50%', '30%', '0%'],
+                    }}
+                    transition={{ ease: 'easeInOut', duration: 8, repeat: Infinity }}
+                />
+                <div className="relative z-20 max-w-xl text-center lg:text-left">
+                    <motion.img
+                        src={banner2}
+                        alt=""
+                        className="absolute w-24 sm:w-32 md:w-40 lg:w-52
+                       -top-6 right-1/2 translate-x-1/2
+                       lg:static lg:translate-x-0 lg:ml-8"
+                        animate={{ y: [0, 20, 0], opacity: [1, 0.8, 1], scale: [1, 1.1, 1] }}
+                        transition={{ ease: 'easeInOut', duration: 6, repeat: Infinity }}
+                    />
+                    <h1 className="font-bold text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+                        Your Best Medical Help Center
+                    </h1>
+                    <p className="mt-4 mb-6 text-white text-sm sm:text-base md:text-lg leading-relaxed">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        It has been the industry’s standard dummy text ever since the 1500s.
                     </p>
 
-                    <button className="btn btn-primary bg-[#F7A582] rounded-lg mt-2">All Service</button>
+                    <button className="btn bg-[#F7A582] border-none text-white px-8 py-3 rounded-lg shadow-md
+                             hover:shadow-lg transition">
+                        All Service
+                    </button>
                 </div>
-
-                {/* Image Section */}
-                <div className="mb-8 lg:mb-0">
+                <div className="flex-shrink-0 z-10">
                     <img
                         src={banner1}
-                        alt="Banner"
-                        className="w-60 md:w-80 lg:w-[400px] rounded-lg shadow-2xl"
+                        alt="Doctor illustration"
+                        className="w-52 sm:w-64 md:w-80 lg:w-[420px] xl:w-[480px]
+                       rounded-lg shadow-2xl object-cover"
                     />
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
