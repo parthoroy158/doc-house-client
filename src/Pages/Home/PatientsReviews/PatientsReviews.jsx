@@ -53,10 +53,10 @@ const PatientsReviews = () => {
         <section
             id="testimonials"
             aria-label="What our customers are saying"
-            className="bg-slate-50 py-20 sm:py-32 "
+            className="bg-slate-50 py-5 sm:py-32 "
         >
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <header className="mx-auto max-w-2xl text-center mb-12 md:mb-16">
+                <header className="mx-auto max-w-2xl text-center mb-5 md:mb-16">
                     <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl font-bold">
                         What Our Patients Says
                     </h2>
@@ -76,7 +76,7 @@ const PatientsReviews = () => {
                 >
                     {userReview.map((review, index) => (
                         <SwiperSlide key={index}>
-                            <ReviewCard  review={review} />
+                            <ReviewCard review={review} />
                         </SwiperSlide>
                     ))}
                 </Swiper>

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Dr. Emily Carter",
+        "specialty": "Cardiologist",
+        "rating": 4.8,
+        "location": "New York, NY",
+        "image": "https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$120",
+        "availableTime": "Mon-Fri 9:00 AM - 5:00 PM"
+    },
+    {
+        "name": "Dr. Michael Lee",
+        "specialty": "Dermatologist",
+        "rating": 4.5,
+        "location": "Los Angeles, CA",
+        "image": "https://images.pexels.com/photos/8460046/pexels-photo-8460046.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$100",
+        "availableTime": "Tue-Sat 10:00 AM - 4:00 PM"
+    },
+    {
+        "name": "Dr. Sarah Thompson",
+        "specialty": "Pediatrician",
+        "rating": 4.9,
+        "location": "Chicago, IL",
+        "image": "https://images.pexels.com/photos/8460158/pexels-photo-8460158.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$90",
+        "availableTime": "Mon-Fri 8:00 AM - 3:00 PM"
+    },
+    {
+        "name": "Dr. James Patel",
+        "specialty": "Orthopedic Surgeon",
+        "rating": 4.6,
+        "location": "Houston, TX",
+        "image": "https://images.pexels.com/photos/11393706/pexels-photo-11393706.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$150",
+        "availableTime": "Mon-Thu 11:00 AM - 6:00 PM"
+    },
+    {
+        "name": "Dr. Ayesha Khan",
+        "specialty": "Neurologist",
+        "rating": 4.7,
+        "location": "Phoenix, AZ",
+        "image": "https://images.pexels.com/photos/6749776/pexels-photo-6749776.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$130",
+        "availableTime": "Tue-Fri 9:30 AM - 5:30 PM"
+    }
+]
