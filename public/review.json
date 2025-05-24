@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Emily Johnson",
+        "profession": "Software Engineer",
+        "image": "https://randomuser.me/api/portraits/women/65.jpg",
+        "review": "Absolutely amazing service! The staff was friendly and made me feel very comfortable. Highly recommended."
+    },
+    {
+        "name": "Michael Smith",
+        "profession": "Teacher",
+        "image": "https://randomuser.me/api/portraits/men/75.jpg",
+        "review": "Quick, efficient, and pain-free. Best dental experience I’ve ever had."
+    },
+    {
+        "name": "Sophia Lee",
+        "profession": "Graphic Designer",
+        "image": "https://randomuser.me/api/portraits/women/21.jpg",
+        "review": "The clinic is modern and clean. The doctor explained everything clearly. I’m very satisfied with the treatment."
+    },
+    {
+        "name": "James Martinez",
+        "profession": "Financial Analyst",
+        "image": "https://randomuser.me/api/portraits/men/32.jpg",
+        "review": "From check-in to checkout, everything was smooth. Great customer care and professionalism."
+    },
+    {
+        "name": "Olivia Brown",
+        "profession": "Nurse",
+        "image": "https://randomuser.me/api/portraits/women/44.jpg",
+        "review": "I was nervous about going to the dentist, but they really put me at ease.The clinic is modern and clean. Thank you!"
+    },
+    {
+        "name": "Daniel Kim",
+        "profession": "Photographer",
+        "image": "https://randomuser.me/api/portraits/men/12.jpg",
+        "review": "Truly impressed with the quality of care and the welcoming environment."
+    },
+    {
+        "name": "Ava Patel",
+        "profession": "Marketing Manager",
+        "image": "https://randomuser.me/api/portraits/women/31.jpg",
+        "review": "They explained everything in detail and made sure I was comfortable the whole time."
+    },
+    {
+        "name": "Liam Robinson",
+        "profession": "Chef",
+        "image": "https://randomuser.me/api/portraits/men/55.jpg",
+        "review": "Clean environment and professional staff. I’ll be coming back for sure!"
+    }
+]
