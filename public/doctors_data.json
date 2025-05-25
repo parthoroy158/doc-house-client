@@ -1,0 +1,527 @@
+[
+    {
+        "name": "Dr. James Ramos",
+        "specialty": "Nephrologist",
+        "qualifications": "BDS, MDS",
+        "rating": 4.8,
+        "location": "West Angela, VT",
+        "image": "https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$122",
+        "availableTime": "Tuesday-Sunday 11:00 AM - 5:00 PM",
+        "actions": [
+            "Get Directions",
+            "Consult Online"
+        ],
+        "awards": [
+            "Top Specialist 2022",
+            "Best Doctor Award"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Brown-Cain",
+                "years": "2012 - 2020"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Barrera Ltd",
+                "years": "2021 - Present"
+            }
+        ],
+        "services": [
+            "Skin Treatment",
+            "Diabetes Management",
+            "Surgery"
+        ]
+    },
+    {
+        "name": "Dr. Richard Cameron",
+        "specialty": "Oncologist",
+        "qualifications": "MBBS, MD",
+        "rating": 5.0,
+        "location": "Ginaton, AR",
+        "image": "https://images.pexels.com/photos/8460046/pexels-photo-8460046.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$140",
+        "availableTime": "Thursday-Friday 8:00 AM - 4:00 PM",
+        "actions": [
+            "Consult Online",
+            "Get Directions"
+        ],
+        "awards": [
+            "Best Doctor Award",
+            "Medical Innovation Award"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Gutierrez, Gross and Barber",
+                "years": "2005 - 2020"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Key Ltd",
+                "years": "2018 - Present"
+            }
+        ],
+        "services": [
+            "Skin Treatment",
+            "Surgery",
+            "General Checkup"
+        ]
+    },
+    {
+        "name": "Dr. Alice Smith",
+        "specialty": "Gastroenterologist",
+        "qualifications": "MBBS, DM",
+        "rating": 4.9,
+        "location": "Port Deniseburgh, HI",
+        "image": "https://images.pexels.com/photos/8460158/pexels-photo-8460158.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$184",
+        "availableTime": "Thursday-Thursday 10:00 AM - 4:00 PM",
+        "actions": [
+            "Get Directions",
+            "Request Call Back"
+        ],
+        "awards": [
+            "Medical Innovation Award",
+            "Excellence in Patient Care"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Levy-Yu",
+                "years": "2011 - 2019"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Richards-Hale",
+                "years": "2019 - Present"
+            }
+        ],
+        "services": [
+            "General Checkup",
+            "Skin Treatment",
+            "Diabetes Management"
+        ]
+    },
+    {
+        "name": "Dr. Michael White",
+        "specialty": "Gynecologist",
+        "qualifications": "MBBS, DM",
+        "rating": 4.9,
+        "location": "Montesland, TN",
+        "image": "https://images.pexels.com/photos/11393706/pexels-photo-11393706.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$193",
+        "availableTime": "Saturday-Friday 11:00 AM - 4:00 PM",
+        "actions": [
+            "Book Appointment",
+            "Get Directions"
+        ],
+        "awards": [
+            "Best Doctor Award",
+            "Medical Innovation Award"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Oneill-Hunt",
+                "years": "2006 - 2017"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Hunter Group",
+                "years": "2018 - Present"
+            }
+        ],
+        "services": [
+            "Surgery",
+            "Dental Cleaning",
+            "General Checkup"
+        ]
+    },
+    {
+        "name": "Dr. Jodi Sanders",
+        "specialty": "Orthopedic Surgeon",
+        "qualifications": "MBBS, DO",
+        "rating": 4.6,
+        "location": "Alanshire, OK",
+        "image": "https://images.pexels.com/photos/6749776/pexels-photo-6749776.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$180",
+        "availableTime": "Friday-Sunday 8:00 AM - 4:00 PM",
+        "actions": [
+            "Get Directions",
+            "Request Call Back"
+        ],
+        "awards": [
+            "Medical Innovation Award",
+            "Best Doctor Award"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Rivera, Mcdaniel and Davies",
+                "years": "2010 - 2020"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Hudson PLC",
+                "years": "2020 - Present"
+            }
+        ],
+        "services": [
+            "Child Health",
+            "Vaccination",
+            "Pain Management"
+        ]
+    },
+    {
+        "name": "Dr. Timothy Peterson",
+        "specialty": "Orthopedic Surgeon",
+        "qualifications": "MBBS, MD",
+        "rating": 4.9,
+        "location": "New Robertoton, IN",
+        "image": "https://images.pexels.com/photos/8134938/pexels-photo-8134938.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$84",
+        "availableTime": "Thursday-Wednesday 8:00 AM - 5:00 PM",
+        "actions": [
+            "Book Appointment",
+            "Consult Online"
+        ],
+        "awards": [
+            "Top Specialist 2022",
+            "Excellence in Patient Care"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Baker, Moore and Pruitt",
+                "years": "2008 - 2018"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Lewis Inc",
+                "years": "2020 - Present"
+            }
+        ],
+        "services": [
+            "Pain Management",
+            "Surgery",
+            "Counseling"
+        ]
+    },
+    {
+        "name": "Dr. Ethan Rivera",
+        "specialty": "Dermatologist",
+        "qualifications": "MBBS, DNB",
+        "rating": 4.8,
+        "location": "West Sarah, MA",
+        "image": "https://images.pexels.com/photos/11080968/pexels-photo-11080968.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$87",
+        "availableTime": "Sunday-Thursday 8:00 AM - 4:00 PM",
+        "actions": [
+            "Consult Online",
+            "Request Call Back"
+        ],
+        "awards": [
+            "Medical Innovation Award",
+            "Top Specialist 2022"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Stephens and Sons",
+                "years": "2009 - 2021"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Sullivan, Levy and Hayes",
+                "years": "2019 - Present"
+            }
+        ],
+        "services": [
+            "Surgery",
+            "Child Health",
+            "Skin Treatment"
+        ]
+    },
+    {
+        "name": "Dr. Catherine Koch",
+        "specialty": "Pediatrician",
+        "qualifications": "MBBS, DO",
+        "rating": 4.9,
+        "location": "Port Seth, NC",
+        "image": "https://images.pexels.com/photos/8460181/pexels-photo-8460181.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$92",
+        "availableTime": "Thursday-Wednesday 10:00 AM - 6:00 PM",
+        "actions": [
+            "Get Directions",
+            "Book Appointment"
+        ],
+        "awards": [
+            "Medical Innovation Award",
+            "Excellence in Patient Care"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Smith, Richards and Hoffman",
+                "years": "2009 - 2016"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Atkinson-West",
+                "years": "2018 - Present"
+            }
+        ],
+        "services": [
+            "Diabetes Management",
+            "Cardiac Evaluation",
+            "Dental Cleaning"
+        ]
+    },
+    {
+        "name": "Dr. Jasmine Khan",
+        "specialty": "Psychiatrist",
+        "qualifications": "MBBS, DGO",
+        "rating": 4.9,
+        "location": "New Ianton, ID",
+        "image": "https://images.pexels.com/photos/8869927/pexels-photo-8869927.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$113",
+        "availableTime": "Sunday-Thursday 8:00 AM - 4:00 PM",
+        "actions": [
+            "Request Call Back",
+            "Book Appointment"
+        ],
+        "awards": [
+            "Excellence in Patient Care",
+            "Best Doctor Award"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Griffin LLC",
+                "years": "2015 - 2022"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Ramirez, Smith and Burke",
+                "years": "2022 - Present"
+            }
+        ],
+        "services": [
+            "Skin Treatment",
+            "General Checkup",
+            "Pain Management"
+        ]
+    },
+    {
+        "name": "Dr. Andrew Lang",
+        "specialty": "ENT Specialist",
+        "qualifications": "MBBS, MS",
+        "rating": 4.5,
+        "location": "Jessicamouth, AK",
+        "image": "https://images.pexels.com/photos/11080973/pexels-photo-11080973.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$118",
+        "availableTime": "Saturday-Monday 9:00 AM - 4:00 PM",
+        "actions": [
+            "Get Directions",
+            "Book Appointment"
+        ],
+        "awards": [
+            "Excellence in Patient Care",
+            "Medical Innovation Award"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Peterson, Mann and Holmes",
+                "years": "2005 - 2019"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Walker, Lawson and Clark",
+                "years": "2020 - Present"
+            }
+        ],
+        "services": [
+            "Dental Cleaning",
+            "Skin Treatment",
+            "Pain Management"
+        ]
+    },
+    {
+        "name": "Dr. Maria Cardenas",
+        "specialty": "Nephrologist",
+        "qualifications": "MBBS, DO",
+        "rating": 4.9,
+        "location": "South Carolyn, NH",
+        "image": "https://images.pexels.com/photos/3762886/pexels-photo-3762886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$93",
+        "availableTime": "Thursday-Tuesday 9:00 AM - 6:00 PM",
+        "actions": [
+            "Request Call Back",
+            "Consult Online"
+        ],
+        "awards": [
+            "Best Doctor Award",
+            "Medical Innovation Award"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Howe-Rich",
+                "years": "2011 - 2019"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Austin LLC",
+                "years": "2018 - Present"
+            }
+        ],
+        "services": [
+            "Surgery",
+            "Pain Management",
+            "Child Health"
+        ]
+    },
+    {
+        "name": "Dr. Kathryn Perry",
+        "specialty": "Pediatrician",
+        "qualifications": "MBBS, MD",
+        "rating": 4.7,
+        "location": "Port Feliciaview, IA",
+        "image": "https://images.pexels.com/photos/8376299/pexels-photo-8376299.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$159",
+        "availableTime": "Thursday-Friday 8:00 AM - 6:00 PM",
+        "actions": [
+            "Consult Online",
+            "Request Call Back"
+        ],
+        "awards": [
+            "Best Doctor Award",
+            "Medical Innovation Award"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Riley, Phillips and Wilson",
+                "years": "2006 - 2017"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Morgan and Sons",
+                "years": "2021 - Present"
+            }
+        ],
+        "services": [
+            "Skin Treatment",
+            "Pain Management",
+            "Diabetes Management"
+        ]
+    },
+    {
+        "name": "Dr. Dana Fox",
+        "specialty": "Gynecologist",
+        "qualifications": "MBBS, DO",
+        "rating": 4.8,
+        "location": "Emilymouth, AR",
+        "image": "https://images.pexels.com/photos/11583138/pexels-photo-11583138.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$167",
+        "availableTime": "Saturday-Tuesday 11:00 AM - 4:00 PM",
+        "actions": [
+            "Book Appointment",
+            "Get Directions"
+        ],
+        "awards": [
+            "Best Doctor Award",
+            "Excellence in Patient Care"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Saunders-Miller",
+                "years": "2011 - 2019"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Clark-Davis",
+                "years": "2022 - Present"
+            }
+        ],
+        "services": [
+            "Dental Cleaning",
+            "Vaccination",
+            "Cardiac Evaluation"
+        ]
+    },
+    {
+        "name": "Dr. Marie Hutchinson",
+        "specialty": "Oncologist",
+        "qualifications": "MBBS, MD",
+        "rating": 5.0,
+        "location": "Susanland, KY",
+        "image": "https://images.pexels.com/photos/6744404/pexels-photo-6744404.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$198",
+        "availableTime": "Monday-Wednesday 8:00 AM - 6:00 PM",
+        "actions": [
+            "Book Appointment",
+            "Request Call Back"
+        ],
+        "awards": [
+            "Medical Innovation Award",
+            "Excellence in Patient Care"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Henry LLC",
+                "years": "2007 - 2017"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Mcdowell, Carter and Alvarez",
+                "years": "2020 - Present"
+            }
+        ],
+        "services": [
+            "Diabetes Management",
+            "Child Health",
+            "Skin Treatment"
+        ]
+    },
+    {
+        "name": "Dr. Brandon Davis",
+        "specialty": "Gastroenterologist",
+        "qualifications": "MBBS, DM",
+        "rating": 4.9,
+        "location": "North Jasonborough, AR",
+        "image": "https://images.pexels.com/photos/9901830/pexels-photo-9901830.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "fees": "$148",
+        "availableTime": "Friday-Friday 10:00 AM - 6:00 PM",
+        "actions": [
+            "Consult Online",
+            "Get Directions"
+        ],
+        "awards": [
+            "Best Doctor Award",
+            "Excellence in Patient Care"
+        ],
+        "work_experience": [
+            {
+                "position": "Resident Doctor",
+                "hospital": "Brown Ltd",
+                "years": "2010 - 2022"
+            },
+            {
+                "position": "Senior Consultant",
+                "hospital": "Rogers-Cowan",
+                "years": "2021 - Present"
+            }
+        ],
+        "services": [
+            "Cardiac Evaluation",
+            "Child Health",
+            "Surgery"
+        ]
+    }
+]

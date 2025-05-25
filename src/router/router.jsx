@@ -9,6 +9,7 @@ import SignUp from "../Pages/Sign Up/SignUp";
 import PrivateRoute from "../Share/Private Route/PrivateRoute";
 import ViewAllDoctors from "../Pages/ViewAllDoctors/ViewAllDoctors";
 import Secret from "../Pages/Secrate/Secret";
+import ViewDoctorDetails from "../Pages/ViewAllDoctors/DoctorCard/ViewDoctorDetails/ViewDoctorDetails";
 
 const router = createBrowserRouter([
     {
@@ -34,7 +35,12 @@ const router = createBrowserRouter([
             },
             {
                 path: '/viewAllDoctors',
-                element: <ViewAllDoctors></ViewAllDoctors>
+                element: <PrivateRoute><ViewAllDoctors></ViewAllDoctors></PrivateRoute>
+            },
+            {
+                path: '/doctors/:id',
+                element: <PrivateRoute><ViewDoctorDetails></ViewDoctorDetails></PrivateRoute>,
+                loader: ({ params }) => fetch(`http://localhost:5000/doctors/${params.id}`)
             }
         ]
     },
