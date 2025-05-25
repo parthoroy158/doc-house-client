@@ -1,21 +1,44 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import { FaUserDoctor } from "react-icons/fa6";
+import useAuth from '../Hooks/useAuth';
+import { div } from 'framer-motion/client';
 
 const Navbar = () => {
+    const { user, userSignOut } = useAuth()
+
+
+    const handleLogOut = () => {
+        userSignOut()
+            .then(result => {
+                console.log(result)
+            })
+            .catch(data => {
+                console.log(data)
+            })
+    }
 
     const items = <>
-        <div className='md:flex text-white'>
+        <div className='md:flex text-white items-center'>
             <li><NavLink to='/'>Home</NavLink></li>
-            <li><NavLink to='/appointment'>Appointment</NavLink></li>
-            <li><a>Submenu 2</a></li>
+            <li><NavLink to='/logIn'>Appointment</NavLink></li>
+            {
+                user ?
+                    <div className='flex items-center gap-2'>
+                        <button className='btn btn-ghost hover:bg-blue-300 '>{user.displayName}
+                        </button>
+                        <img className='w-10' src={user.photoURL} alt="" />
+                    </div>
+                    :
+                    ''
+            }
         </div>
     </>
     return (
-        <div className="navbar bg-[#54a39d] fixed z-1 max-w-7xl mx-auto pl-5 pr-5 ">
+        <div className={`navbar bg-[#54a39d] fixed z-10  max-w-7xl mx-auto pl-5 pr-5 `}>
             <div className="navbar-start">
                 <div className="dropdown ">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
+                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden dark:text-white ">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                     </div>
                     <ul
@@ -31,8 +54,17 @@ const Navbar = () => {
                     {items}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn md:btn-outline" >Log In</a>
+            <div className="navbar-end gap-2">
+                {
+                    user ? <>
+                        <Link to='/signUp'><button className="btn btn-sm md:btn-outline" onClick={handleLogOut} >LOG OUT</button></Link>
+
+                    </> :
+                        <>
+                            <Link to='/signUp'><button className="btn btn-sm md:btn-outline" >SIGN UP</button></Link>
+                            <Link to='/logIn'><button className="btn  btn-sm md:btn-outline" >LOG IN</button></Link>
+                        </>
+                }
             </div>
         </div>
     );

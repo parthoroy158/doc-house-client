@@ -3,6 +3,12 @@ import {
 } from "react-router-dom";
 import MainLayout from "../Layout/MainLayout/MainLayout";
 import Home from "../Pages/Home/Home";
+import LogIn from "../Pages/LogIn/LogIn";
+import SignUp from "../Pages/Sign Up/SignUp";
+
+import PrivateRoute from "../Share/Private Route/PrivateRoute";
+import ViewAllDoctors from "../Pages/ViewAllDoctors/ViewAllDoctors";
+import Secret from "../Pages/Secrate/Secret";
 
 const router = createBrowserRouter([
     {
@@ -13,6 +19,22 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>
+            },
+            {
+                path: '/logIn',
+                element: <LogIn></LogIn>
+            },
+            {
+                path: '/signUp',
+                element: <SignUp></SignUp>
+            },
+            {
+                path: '/secret',
+                element: <PrivateRoute><Secret></Secret></PrivateRoute>
+            },
+            {
+                path: '/viewAllDoctors',
+                element: <ViewAllDoctors></ViewAllDoctors>
             }
         ]
     },

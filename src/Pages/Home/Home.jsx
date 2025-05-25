@@ -6,6 +6,7 @@ import PatientsReviews from './PatientsReviews/PatientsReviews';
 import PopularDoctor from './PopularDoctor/PopularDoctor';
 import BookingFrom from './BookingFrom/BookingFrom';
 import Footer from './Footer/Footer';
+import ExpertDoctors from './ExpartDoctors/ExpertDoctors';
 
 const Home = () => {
     return (
@@ -15,9 +16,8 @@ const Home = () => {
             <OpeningDetails></OpeningDetails>
             <PatientsReviews></PatientsReviews>
             <PopularDoctor></PopularDoctor>
+            <ExpertDoctors></ExpertDoctors>
             <BookingFrom></BookingFrom>
-            <Footer></Footer>
-
         </div>
     );
 };

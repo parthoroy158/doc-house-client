@@ -60,7 +60,7 @@ const PatientsReviews = () => {
                     <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl font-bold">
                         What Our Patients Says
                     </h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <p className='dark:text-black'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                 </header>
 
                 <Swiper

@@ -53,10 +53,10 @@ export default function Body() {
 
                 {/* Right content */}
                 <div className="w-full max-w-2xl text-center lg:text-left">
-                    <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 leading-tight">
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 leading-tight dark:text-white">
                         Our Services
                     </h1>
-                    <p className="mt-4 mb-6 text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                    <p className="mt-4 mb-6 text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify dark:text-white">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                         quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -64,7 +64,7 @@ export default function Body() {
                     </p>
 
                     {/* Tab buttons */}
-                    <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-8">
+                    <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-8 dark:text-white">
                         {TABS.map((tab) => (
                             <button
                                 key={tab.key}
@@ -81,18 +81,18 @@ export default function Body() {
                     </div>
 
                     {/* Tab panel */}
-                    <div className="flex flex-col items-center lg:items-start gap-4">
+                    <div className="flex flex-col items-center lg:items-start gap-4 dark:text-white">
                         <img
                             src={current.image}
                             alt={current.heading}
                             className="w-full max-w-md rounded-lg shadow-md"
                         />
 
-                        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 leading-tight">
+                        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 leading-tight dark:text-white">
                             {current.heading}
                         </h2>
 
-                        <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                        <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed text-justify dark:text-white">
                             {current.blurb}
                         </p>
 

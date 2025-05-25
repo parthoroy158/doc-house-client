@@ -34,16 +34,16 @@ const PopularDoctor = () => {
                 spaceBetween={15}
                 pagination={{ clickable: true }}
                 modules={[Pagination]}
-                className="mySwiper mt-10 mb-5"
+                className="mySwiper mt-10"
             >
                 {doctors.map((doctor, index) => (
                     <SwiperSlide key={index}>
-                        <div className="card bg-base-300w-full max-w-sm md:max-w-md lg:max-w-lg mx-auto shadow-sm mb-10">
+                        <div className="card bg-base-300 w-full max-w-sm md:max-w-md lg:max-w-lg mx-auto shadow-sm mb-10">
                             <figure className="px-10 pt-10">
                                 <img
                                     src={doctor.image}
                                     alt={doctor.name}
-                                    className="rounded-xl h-60 object-cover w-60"
+                                    className="rounded-xl h-60 object-cover w-80"
                                 />
                             </figure>
                             <div className="card-body items-center text-center">
@@ -66,7 +66,7 @@ const PopularDoctor = () => {
                             </div>
                             <div className='pl-5 flex items-center gap-4'>
                                 <FaDollarSign />
-                                <p> {doctor.availableTime}</p>
+                                <p> {doctor.fees}/Hr</p>
                             </div>
                             <div className="card-actions w-full p-5">
                                 <button className="btn btn-ghost border-amber-600 rounded-xl w-full p-5 text-amber-500">View Profile</button>

@@ -20,7 +20,7 @@ const BookingFrom = () => {
         // send an HTTP request
         setTimeout(() => {
             setState('success');
-        }, 8000);
+        }, 3000);
     };
 
     return (
@@ -54,37 +54,37 @@ const BookingFrom = () => {
                                 <label className="label">
                                     <span className="label-text">Name</span>
                                 </label>
-                                <input type="text" placeholder="Name" {...register('name')} className="input input-bordered w-full text-black" />
+                                <input type="text" placeholder="Name" {...register('name')} className="input input-bordered w-full text-black dark:text-white" />
                             </div>
                             <div>
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input type="email" placeholder="Email" {...register('email')} className="input input-bordered w-full text-black" />
+                                <input type="email" placeholder="Email" {...register('email')} className="input input-bordered w-full text-black dark:text-white" />
                             </div>
                             <div>
                                 <label className="label">
                                     <span className="label-text">Phone Number</span>
                                 </label>
-                                <input type="number" placeholder="Phone Number" {...register('PhoneNumber')} className="input input-bordered w-full text-black" />
+                                <input type="number" placeholder="Phone Number" {...register('PhoneNumber')} className="input input-bordered w-full text-black dark:text-white" />
                             </div>
                             <div>
                                 <label className="label">
                                     <span className="label-text">Doctor Name</span>
                                 </label>
-                                <input type="text" placeholder="Doctor Name" {...register('DoctorName')} className="input input-bordered w-full text-black" />
+                                <input type="text" placeholder="Doctor Name" {...register('DoctorName')} className="input input-bordered w-full text-black dark:text-white" />
                             </div>
                             <div>
                                 <label className="label">
                                     <span className="label-text">Date</span>
                                 </label>
-                                <input type="date" placeholder="Date"  {...register('date')} className="input input-bordered w-full text-black" />
+                                <input type="date" placeholder="Date"  {...register('date')} className="input input-bordered w-full text-black dark:text-white" />
                             </div>
                             <div>
                                 <label className="label">
                                     <span className="label-text">Select Time</span>
                                 </label>
-                                <select  {...register('time')} className="select select-bordered w-full text-black">
+                                <select  {...register('time')} className="select select-bordered w-full text-black dark:text-white">
                                     <option disabled selected>Time</option>
                                     <option>10:00 AM</option>
                                     <option>2:00 PM</option>
@@ -101,7 +101,7 @@ const BookingFrom = () => {
                             <ReactiveButton
                                 type="submit"
                                 buttonState={state}
-                                idleText="Submit"
+                                idleText="BOOK NOW"
                                 loadingText="Loading"
                                 successText="Done"
                                 size="w-full"
