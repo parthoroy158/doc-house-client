@@ -24,10 +24,10 @@ const Navbar = () => {
             <li><NavLink to='/logIn'>Appointment</NavLink></li>
             {
                 user ?
-                    <div className='flex items-center gap-2'>
+                    <div className='flex items-center gap-1'>
                         <button className='btn btn-ghost hover:bg-blue-300 '>{user.displayName}
                         </button>
-                        <img className='w-10' src={user.photoURL} alt="" />
+                        <img className='w-10 rounded-full' src={user.photoURL} alt="" />
                     </div>
                     :
                     ''

@@ -18,12 +18,25 @@ const SignUp = () => {
     const [state, setState] = useState('idle');
     const { createUser, userUpdateProfile } = useContext(AuthContext)
     const navigate = useNavigate()
-
+    const { signInWithGoogle } = useContext(AuthContext)
     const {
         register,
         handleSubmit,
         formState: { errors },
     } = useForm();
+
+
+
+    const handleSignInWithGoogle = () => {
+        signInWithGoogle()
+            .then(result => {
+                console.log(result)
+            })
+            .catch(error => {
+                console.log(error, "error")
+            })
+
+    }
 
 
     const onSubmitLogIn = data => {
@@ -107,7 +120,7 @@ const SignUp = () => {
                         </form>
                         <div className="divider">OR</div>
                         <div className='flex gap-5 justify-center mb-5'>
-                            <button className='btn btn-active rounded-4xl'> <FcGoogle className='text-2xl' /></button>
+                            <button className='btn btn-active rounded-4xl' onClick={handleSignInWithGoogle}> <FcGoogle className='text-2xl' /></button>
                             <button className='btn btn-active rounded-4xl'> <FaGithub className='text-2xl' /></button>
                             <button className='btn btn-active rounded-4xl'> <FaFacebook className='text-2xl' /></button>
 
